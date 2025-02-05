@@ -38,11 +38,14 @@
     }
 
     div {
+      display: flex;
+      max-width: 100vw;
       /* background-color: white; */
       /* border-color: white; */
       background-color: black;
       padding: 40px;
       margin: 10px;
+      /* width: 100%; */
       /* margin-right: 10px; */
       /* height: 600px; */
       /* border-width: 10px; */
@@ -51,6 +54,7 @@
     .blog {
       display: flex;
       flex-direction: column;
+      align-items: center;
       /* align-items: center; */
       /* width: 100%; */
       /* height: fit-content; */
